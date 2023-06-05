@@ -14,7 +14,7 @@ gem "sqlite3", "~> 1.6"
 
 gem "require_all", "~> 3.0"
 
-gem "pry", "~> 0.14.2"
+
 
 gem "faker", "~> 3.2"
 
