@@ -18,46 +18,39 @@ GEM
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     method_source (1.0.0)
-    mini_portile2 (2.8.2)
     minitest (5.18.0)
-    mustermann (1.1.1)
+    mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
-    pry (0.14.1)
+    pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    rack (2.2.3)
-    rack-protection (2.1.0)
+    rack (2.2.7)
+    rack-protection (3.0.6)
       rack
     rake (13.0.6)
     require (0.2.7)
     require_all (3.0.0)
     ruby2_keywords (0.0.5)
-    sinatra (2.1.0)
-      mustermann (~> 1.0)
-      rack (~> 2.2)
-      rack-protection (= 2.1.0)
+    sinatra (3.0.6)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.0.6)
       tilt (~> 2.0)
-    sinatra-activerecord (2.0.23)
+    sinatra-activerecord (2.0.26)
       activerecord (>= 4.1)
       sinatra (>= 1.0)
-    sqlite3 (1.6.3)
-      mini_portile2 (~> 2.8.0)
-    sqlite3 (1.6.3-arm64-darwin)
-    sqlite3 (1.6.3-x86_64-darwin)
     sqlite3 (1.6.3-x86_64-linux)
-    tilt (2.0.10)
+    tilt (2.1.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
 
 PLATFORMS
-   x86_64-linux
-  universal-darwin-20
   x86_64-linux
 
 DEPENDENCIES
   activerecord (~> 7.0)
   faker (~> 3.2)
-  pry
+  pry (~> 0.14.2)
   rake (~> 13.0)
   require (~> 0.2.7)
   require_all (~> 3.0)
@@ -65,4 +58,4 @@ DEPENDENCIES
   sqlite3 (~> 1.6)
 
 BUNDLED WITH
-   2.2.23
+   2.4.13
