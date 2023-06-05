@@ -79,7 +79,7 @@ A star_rating column that stores an integer.
 A comment column that stores a string.
 After creating and running your migration, create your Review class, and use the seeds.rb file to create Review instances so you can test your code.
 
-Once you've set up your reviews table, work on building out the following deliverables.
+Once you've set up your reviews table, work on building out the following 
 
 Object Association Methods
 Use Active Record association macros and Active Record query methods where appropriate (i.e. has_many, has_many through, and belongs_to).
